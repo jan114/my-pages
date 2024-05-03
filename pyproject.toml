@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "my-pages"
+version = "0.1.0"
+description = ""
+authors = ["Jan Jelen Jelínek <39807689+jan114@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.111.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
